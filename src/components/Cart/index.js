@@ -31,7 +31,7 @@ const Cart = () => (
                 <CartListView />
                 <div className="cart-summary-container">
                   <h1 className="total-heading">
-                    Order of Total:
+                    Order Total:
                     <span className="span-text"> Rs {total}/-</span>
                   </h1>
                   <p className="cart-count">{count} items in cart</p>
